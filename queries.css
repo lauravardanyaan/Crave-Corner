@@ -1,0 +1,102 @@
+@media (max-width: 1200px) {
+    .nav {
+        position: absolute;
+        top: 0;
+        color: white;
+        display: flex;
+        gap: 130px;
+        margin: 25px 0;
+        align-items: center;
+    }
+
+    .hero-carousel {
+        position: absolute;
+        color: white;
+        width: 37%;
+        top: 24%;
+        left: 10%;
+        line-height: 1.5;
+    }
+
+    .offer {
+        background-color: #222831;
+        display: flex;
+        flex-direction: row;
+        width: 39%;
+        align-items: center;
+        margin: 45px 0;
+        border-radius: 5px;
+        padding: 20px 15px;
+        color: white;
+        gap: 20px;
+    }
+
+    .menu-content {
+        display: grid;
+        grid-template-columns: 25% 25% 25%;
+        grid-template-rows: auto;
+        justify-content: center;
+        justify-items: center;
+        margin: 70px;
+        gap: 20px;
+        column-gap: 55px;
+    }
+
+    .menu-box {
+        height: 430px;
+        width: 290px;
+        background-color: #222831;
+        color: white;
+        border-radius: 15px;
+    }
+
+    .menu-box-description {
+        width: 225px;
+        margin: 5px 20px;
+        line-height: 1.5;
+    }
+
+    .about-section {
+        margin: 100px 0;
+        background-color: #222831;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        line-height: 1.5;
+    }
+
+    .about-img img {
+        width: 100%;
+        max-width: 445px;
+        margin: 60px;
+    }
+
+    .about-description {
+        width: 440px;
+    }
+
+    .customers-box {
+        background-color: #222831;
+        width: 38%;
+        align-items: center;
+        margin: 20px 15px;
+        border-radius: 5px;
+        padding: 15px 20px;
+        color: white;
+        gap: 20px;
+        line-height: 1.5;
+    }
+
+    .footer-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+        justify-content: center;
+        background-color: #222831;
+        color: white;
+        padding: 0 160px;
+    }
+}
+
